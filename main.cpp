@@ -79,6 +79,7 @@ int main()
             ttt[i][j] = '?';
     }
     // gameplay
+    system("MODE con cols=35 lines=13");
     char turn, win = '?';
     for (int round=1; round<=9; round++)
     {
